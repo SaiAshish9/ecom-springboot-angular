@@ -40,11 +40,6 @@ CREATE TABLE IF NOT EXISTS `full-stack-ecommerce`.`product` (
 ENGINE=InnoDB
 AUTO_INCREMENT = 1;
 
-
--- -----------------------------------------------------
--- Add sample data
--- -----------------------------------------------------
-
 INSERT INTO product_category(category_name) VALUES ('BOOKS');
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
