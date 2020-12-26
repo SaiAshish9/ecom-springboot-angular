@@ -10,4 +10,7 @@ public class SpringBootEcommerseApplication {
 		SpringApplication.run(SpringBootEcommerseApplication.class, args);
 	}
 
+//	settings -> plugin -> lombok
+//	project.lombok.org
+
 }

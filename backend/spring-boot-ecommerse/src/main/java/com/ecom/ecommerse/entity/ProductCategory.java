@@ -8,6 +8,7 @@ import java.util.Set;
 
 @Entity
 @Table(name="product_category")
+// @Data -- known bug
 @Getter
 @Setter
 public class ProductCategory {
@@ -20,9 +21,14 @@ public class ProductCategory {
     @Column(name = "category_name")
     private String categoryName;
 
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "category")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "category")
     private Set<Product> products;
 
-
-
 }
+
+
+
+
+
+
+
